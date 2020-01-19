@@ -16,9 +16,9 @@ class typing_test{
 
 // results screen 
 void typing_test::results(int cpm, int wpm, int wrong){
-    std::cout << "==============================\n"
-		 << "           Results            \n"
-		 << "==============================\n"
+    std::cout << "----------\n"
+		 << "Results\n"
+		 << "----------\n"
 		 << "Characters typed: " << cpm << "\n"
          << "Words typed: " << wpm <<"\n"
 		 << "Incorrect words: " << wrong << "\n"
